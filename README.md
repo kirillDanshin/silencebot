@@ -5,9 +5,12 @@ Silence Bot allows you to calm down all chat participants by muting them tempora
 Just add the bot to your supergroup, give it message deletion and user restriction rights and you're all set.
 
 **Use /silence to enable silent mode.**
+
 All non-admin messages will be deleted in silent mode, any user who tries to send a message will get a temporary read-only restriction.
+
 **Use /silence again to disable silent mode.**
-All users will be unrestricted automatically.
+
+All users will be unrestricted automatically and be able to chat.
 
 I'm very new to Go, so I'll be happy if you make some pull requests.
 
