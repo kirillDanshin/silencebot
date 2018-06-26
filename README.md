@@ -15,8 +15,15 @@ All users will be unrestricted automatically and be able to chat.
 I'm very new to Go, so I'll be happy if you make some pull requests.
 
 ## Building
-Just run `CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -tags netgo -ldflags '-w -extldflags "-static"' -o silencebot`
-
+Install dependencies
+```
+go get -u gopkg.in/tucnak/telebot.v2
+go get -u github.com/go-redis/redis
+```
+And then build
+```
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -tags netgo -ldflags '-w -extldflags "-static"' -o silencebot
+```
 Please note that the bot requires running Redis instance to store data.
 
 ## Running
