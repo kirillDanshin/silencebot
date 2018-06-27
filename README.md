@@ -19,6 +19,9 @@ Install dependencies
 ```
 go get -u gopkg.in/tucnak/telebot.v2
 go get -u github.com/go-redis/redis
+go get -u "github.com/apex/log"
+go get -u "github.com/apex/log/handlers/cli"
+go get -u "github.com/spf13/pflag"
 ```
 And then build
 ```
