@@ -9,6 +9,3 @@ RUN go get -v github.com/aprosvetova/silencebot && go install github.com/aprosve
 
 # Run the silencebot by default when the container starts.
 ENTRYPOINT /go/bin/silencebot -t 123456789:XXXxXxxXxxx0xxxXX00XXXX0XXxXXxxXxxx
-
-# Document that the service listens on port 80.
-EXPOSE 80
