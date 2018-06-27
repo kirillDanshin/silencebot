@@ -33,7 +33,8 @@ By default it connects to localhost:6379 Redis instance without password and sel
 You can customize this behavior, check `./silencebot -h` for all arguments.
 
 ## Running as a background service
-It's up to you how you achieve that. ~~I'm too lazy to make up any dockerfiles/etc :>~~
+
+There are two ways as for now: Docker compose and systemd service
 
 **Don't forget to replace token!**
 
